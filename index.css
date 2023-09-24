@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.card {
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 420px;
+  box-sizing: border-box;
+}
+
+.card__title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border-bottom: 1px solid #eeeaea;
+  padding: 8px 24px;
+}
+
+.card__subtitle {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-bottom: 1px solid #eeeaea;
+  padding: 8px 24px;
+}
+
+.card__body {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.card_input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #00bcd4;
+  font-size: 14px;
+  font-family: 'Public Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.card__button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #fafafa;
+  font-size: 14px;
+  font-family: 'Public Sans', sans-serif;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.card__button:hover {
+  background-color: #00acc1;
+}
+
+.card__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card__list>li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #00bcd4;
+  padding-bottom: 10px;
+}
+
+.card__list>li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.card__list__item__text {
+  font-size: 13px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.card__list__item__text.completed {
+  text-decoration: line-through;
+}
+
+
+
+.card__list__item__actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__list__item__actions__button {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #00bcd4;
+  font-size: 24px;
+  font-family: 'Public Sans', sans-serif;
+  background-color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}

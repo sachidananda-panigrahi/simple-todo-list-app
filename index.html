@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+
+  <link href="./reset.css" rel="stylesheet">
+  <link href="./index.css" rel="stylesheet">
+  <script src="./index.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h5 class="card__title">
+        Add new task
+      </h5>
+      <div class="card__body">
+        <form class="task-form" id="task-form">
+          <input type="text" class="card_input" placeholder="Enter your task here" id="task-input" />
+          <button class="card__button" type="submit" id="task-input-btn">Add task</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="card">
+      <h5 class="card__title">
+        task list
+      </h5>
+      <div class="card__body">
+
+        <ul class="card__list" id="task-list">
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+      <h5 class="card__title">
+        Completed task
+      </h5>
+      <div class="card__body">
+
+        <ul class="card__list" id="completed-task-list">
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
